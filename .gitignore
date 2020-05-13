@@ -5,7 +5,7 @@
 *.un~
 
 # binaries
-cgo-test
+go-rust-ffi-test
 
 # misc
 todo
