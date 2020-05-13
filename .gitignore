@@ -1,0 +1,14 @@
+# Vim
+*.swp
+*.swo
+*.swn
+*.un~
+
+# binaries
+cgo-test
+
+# misc
+todo
+
+# Rust
+rust/target
