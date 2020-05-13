@@ -36,7 +36,7 @@ func main() {
 	fmt.Println("cgo cost/call (nanoseconds):",
 		printer.Sprintf(
 			"%.1f",
-			((t1-t0)/10_000_000)*(1_000_000),
+			((t1-t0)/10_000_000)*1_000_000,
 		),
 	)
 	fmt.Println("cgo calls/second:", printer.Sprintf("%.0f", (1000/t1)*10_000_000))
