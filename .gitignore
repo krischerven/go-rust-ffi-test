@@ -11,4 +11,5 @@ go-rust-ffi-test
 todo
 
 # Rust
+Cargo.lock
 rust/target
